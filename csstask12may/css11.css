@@ -1,0 +1,21 @@
+#oo{ background-color: bisque;
+border-style: groove;
+
+border-width: 10px;
+
+margin: 300px;
+
+
+
+}
+
+#sd{
+    background-color: brown;
+    color: aliceblue;
+}
+#kk{
+    width: 200px;
+    height: 50px; 
+    color: rgb(255, 255, 255); 
+    background-color: black;
+}

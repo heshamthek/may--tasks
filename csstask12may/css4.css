@@ -1,0 +1,16 @@
+#background{
+
+    color: rgb(217, 255, 1);
+background-color: blue;
+}
+#img{
+    background-image:url(photo-1552872673-9b7b99711ebb.avif);
+   background-size: cover;
+   background-repeat: no-repeat;
+   height: 600px;
+}
+#ppp{
+    color: wheat;
+    text-shadow: yellow;
+    font-size: 1em;
+}
