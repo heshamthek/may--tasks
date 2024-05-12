@@ -1,0 +1,15 @@
+.virtcal{
+background-image: url(photo-1552872673-9b7b99711ebb.avif);
+width: 1920px;
+height: 100px;
+background-repeat: no-repeat;
+background-position-y: top;
+}
+
+.back{
+    background-image: url(vertical-background.jpg);
+    background-repeat:no-repeat;
+    background-position-x:left ;
+height: 800px;
+ 
+}
