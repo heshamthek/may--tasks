@@ -1,0 +1,10 @@
+.z{
+text-transform: uppercase;
+}
+#z{
+    text-transform: lowercase;
+}
+#k{
+    text-transform: capitalize;
+
+}
