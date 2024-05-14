@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+.f{
+    display: grid;
+        height: 100vh;
+        background-color: antiquewhite;
+        grid-template-columns:repeat(10,1fr);
+        grid-template-rows:  auto;
+        
+        grid-template-areas:"head head head head head" "side nav nav nav nav"
+         "side art art art art" "side art art art art" "footer footer footer footer footer"  ;
+         border: hidden;
+        
+        gap: 10px 10px;
+}
+
+
+
+
+.t{
+    grid-area: head;
+    background-color: red;
+}
+.y{
+    grid-area: side;
+    background-color: rgb(207, 245, 21);
+
+}
+.u{
+grid-area: nav;
+background-color: rgb(0, 255, 123);
+
+}
+.i{
+    grid-area: footer;
+    background-color: rgb(170, 0, 255);
+
+}
+.o{
+    grid-area: art;
+    background-color: rgb(0, 4, 255);
+}
+.a{
+    text-align: center;
+   font-size: 20px;
+}
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="f">
+        <header class="a t">head</header>       
+        <aside class="a y">side bar</aside>
+        <nav class=" a u">nav</nav>
+        <footer class="a i">footer</footer>
+        <article class=" a o">article</article>
+    </div>
+</body>
+</html>
