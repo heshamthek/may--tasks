@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+.q{
+    display: grid;
+    grid-template-columns: repeat(10,100px);
+    grid-template-rows: repeat(10,100px);
+
+
+}
+.a{
+    background-color: red;
+    opacity: 40%;
+    border: solid 1px;
+    grid-column-start:1;
+    grid-column-end:4;
+    grid-row-start: 1;
+    grid-row-end:4;
+
+
+}
+.s{
+    background-color: green;
+    opacity: 40%;
+    border: solid 1px;
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start:2;
+    grid-row-end: 5;
+}
+.d{
+    background-color: blue;
+    opacity: 40%;
+    border: solid 1px;
+    grid-column-start:3;
+    grid-column-end:6 ;
+    grid-row-start: 3;
+    grid-row-end:6;
+    
+}
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="q">
+<div class="a"> top</div>
+<div class="s">mid</div>
+<div class="d">bottmo</div>
+
+
+    </div>
+</body>
+</html>
